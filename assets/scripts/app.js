@@ -8,7 +8,7 @@ class Product {
     }
   }
   
-  // Testing the Product class
+
   const product = new Product(1, "Example Product", 10.99, "This is an example product", "example.jpg");
   console.log(product);
 
@@ -39,7 +39,6 @@ class Product {
   }
 
   render() {
-        // render the products by looping through the products array and create a new ProductItem instance for each product. Use render method of ProductItem class to get each product element and append it to the `<ul>`.
         this.products.forEach(productItem => {
             console.log(productItem);
             const product = new product
